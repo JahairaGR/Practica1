@@ -1,57 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>practica1 html aplicaciones web</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- <style>
+    p{
+        text-align: center;
+        color: red;
+    }
+</style> -->
 </head>
+
 <body>
-    <h1>Practica de Jahaira Gomez Rebolledo</h1>
-    <h1>hola mundo</h1>
-    <h2>hola mundo</h2>
-    <h3>hola mundo</h3>
-    <h4>hola mundo</h4>
-    <h5>hola mundo</h5>
-    <p>Este es un parrafo</p>
-    <p>ejemplo de un parrafo</p>
-    <p>hiihihihihihihih</p>
 
-    <h1>MI PRIMER VIÑETAAAAA</h1>
-    <li>Jahaira Gomez Rebolledo</li>
-    <h5></h5>
-    
-<!-- OJO: COMO HACER COMENTARIOS?.... 1.- Ctrl+k y despues Ctrl+c -->
-<!-- BORDER= Se refiere al grosor del contorno de la tabla -->
+    <header id="encabezado">
+        <h1>Aplicacion Web</h1>
+        <h2>Elaborada por Jahaira Gomez Rebolledo</h2>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="quiensoy.html">Quien soy</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="redessociales.html">Redes Sociales</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href=contacto.html>Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="seccion1">
+        <article>
+            <h1 id="bienvenida">En el menú encontraras datos de mi autobiografia HOLAAA</h1>
+            <h1>Practica de Jahaira Gomez Rebolledo</h1>
+            <h1>hola mundo</h1>
+            <h2>hola mundo</h2>
+            <h3>hola mundo</h3>
+            <h4>hola mundo</h4>
+            <h5>hola mundo</h5>
+            <p id="para1">Este es un parrafo<
+                    jjejejejejjajajajajjajijijijijojojojjojojjuu</p>
+                    <p id="para2">ejemplo de un parrafo2 jahaira jahiarajahiarakfewfkfowe</p>
+                    <p class="centrar">hiihihihihihijhihjnknkvghbtbfgvbfhgvtbhfghih
+                    </p>
+
+                    <h1>ETIQUETA DIV</h1>
+                    <h3>Sirve para rganizar todo el comando(tipo hacer modulos)</h3>
+
+                    <h1 class="estilo">Creacion de Modulos</h1>
+                    <H3><a href="#simbolitos">simbolitos</a><br></H3>
+                    <H3><a href="#numeritos">numeritos</a></H3>
+                    <H3><a href="#imag">imagenutez</a></H3>
+
+                    <h1 class="estilo">MI PRIMER VIÑETAAAAA</h1>
+                    <li>Jahaira Gomez Rebolledo</li>
+                    <div id="simbolitos">
+                        <h4>Viñetas</h4>
+                        <Ul>
+                            <li>Tlatelpa</li>
+                            <li>Jared</li>
+                            <li>Bryan</li>
+                            <li>Sayuri</li>
+                            <li>Brandon</li>
+                            <li>Sevilla</li>
+                        </Ul>
+                    </div>
+        </article>
+    </section>
+    <section id="seccion2">
+        <article>
+            <div id="numeritos">
+                <h4>Lista Enumerada</h4>
+                <ol>
+                    <li>Kevin</li>
+                    <li>Giovani</li>
+                    <li>Javier</li>
+                    <li>Danna</li>
+                    <li>Daniel</li>
+                    <li>Alan</li>
+                </ol>
+            </div>
+
+            <h4>Lista con Alfabeto</h4>
+            <ol type="a">
+                <li>Jahaira</li>
+                <li>Giovani</li>
+                <li>Sayuri</li>
+                <li>Sevila</li>
+                <li>Bruno</li>
+                <li>Frida</li>
+            </ol>
 
 
-    <table border="5">
-        <!-- <h5>ESTE COMANDO CREA FILAS</h5> -->
-        <tr>
-            <!-- <h5>ESTE COMANDO CREA COLUMNAS</h5> -->
-          <th>Hoy</th>
-      
-          <th>Mañana</th>
-      
-          <th>Lunes</th>
-      
-        </tr>
-      
-        <tr>
-      
-          <td>Soleado</td>
-      
-          <td>Mayormente soleado</td>
-      
-          <td>Parcialmente nublado</td>
-      
-        </tr>
-    </table>
-    <h5></h5>
-    <h1>MI PRIMER IMAGEN</h1>
-        <img src="utezmiprimerimagen.jpg">
+            <!-- OJO: COMO HACER COMENTARIOS?.... 1.- Ctrl+k y despues Ctrl+c -->
+            <!-- BORDER= Se refiere al grosor del contorno de la tabla -->
+            <h1>MI PRIMER TABLA</h1>
 
-        <h1>MI PRIMER HIPERVINCULO</h1>
-        <a href="contacto.html">clik para abrir el vinculo</a>
+            <table border="8">
+                <!-- <h5>ESTE COMANDO CREA FILAS</h5> -->
+                <h1 class="estilo">Mejores Amigos</h1>
+                <tr>
+                    <!-- <h5>ESTE COMANDO CREA LOS ENCABEZADOS</h5> -->
+                    <th class="enctabla">Nombre</th>
+
+                    <th class="enctabla">Apellido</th>
+
+                    <th class="enctabla">Edad</th>
+
+                </tr>
+
+                <tr>
+                    <!-- <h5>ESTE COMANDO CREA LAS COLUMNAS CON SUS DATOS</h5> -->
+                    <td class="databla">Jahaira</td>
+
+                    <td class="databla">Gomez</td>
+
+                    <td class="databla">18</td>
+
+                </tr>
+
+                <tr>
+                    <td class="databla">Carlos</td>
+
+                    <td class="databla">Sevilla</td>
+
+                    <td class="databla">18</td>
+                </tr>
+
+                <tr>
+                    <td class="databla">Sayuri</td>
+
+                    <td class="databla">Mendoza</td>
+
+                    <td class="databla">20</td>
+                </tr>
+
+                <tr>
+                    <td class="databla">Alan</td>
+
+                    <td class="databla">Gonzalez</td>
+
+                    <td class="databla">18</td>
+                </tr>
+
+                <tr>
+                    <td class="databla">Giovani</td>
+
+                    <td class="databla">Sanchez</td>
+
+                    <td class="databla">20</td>
+                </tr>
+            </table>
+
+            <h5></h5>
+
+            <div id="imag">
+                <h1>MI PRIMER IMAGEN</h1>
+                <h2 class="estilo">DONDE ESTUDIO?....UTEZ</h2>
+                <img src="img/utezmiprimerimagen.jpg" width="100%" height="">
+                <!-- <h1>carpeta/imagen---asi mandamos a llamar un archivo de otra carpeta dentro de la principal</h1> -->
+            </div>
+            <h1 class="estilo">MI PRIMER HIPERVINCULO</h1>
+            <h1><a href="contacto.html">clik para abrir el vinculo</a></h1>
+        </article>
+    </section>
+
+    <footer id="piePagina">
+        <p>Derechos de autor</p><br>
+        <p>Todos los derechos reservados 2022</p>
+    </footer>
 </body>
+
 </html>

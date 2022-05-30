@@ -1,0 +1,147 @@
+body {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+}
+
+#bienvenida {
+    font-size: 25px;
+    font-style: oblique;
+    background-color: mediumpurple;
+    text-align: center;
+}
+
+.menu li {
+    font-size: 25px;
+    font-style: oblique;
+    list-style: none;
+    color: #000;
+    display: inline;
+    background: #fff;
+    margin: 0 60px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+#piePagina {
+    color: #000;
+    text-align: center;
+    border-radius: 10px;
+    width: 81%;
+    margin: 27% 10% 10px;
+    height: 100px;
+    background-color: rgb(185, 185, 185);
+    clear: both;
+}
+
+#seccion1 {
+    float: left;
+    width: 30%;
+    height: 1200px;
+    margin: 0 0 0 10%;
+    background-color: aquamarine;
+    padding: 10px 10px 10px 10px;
+}
+
+#seccion2 {
+    float: right;
+    width: 30%;
+    height: 1200px;
+    margin: 0 9% 0 0;
+    background-color: violet;
+    padding: 10px 10px 10px 10px;
+}
+
+#para1 {
+    text-align: center;
+    color: red;
+}
+#info {
+    text-align: center;
+    color: rgb(8, 105, 81);
+    font-style: oblique;
+    font-size: 25px;
+}
+
+#para2 {
+    text-align: left;
+    color: blue;
+    font-size: 15px;
+}
+
+.centrar {
+    text-align: center;
+    color: red;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cenima {
+    text-align: center;
+    background-color: darkmagenta;
+    margin: 10px 10%;
+    width: 1000px;
+    height: 360px;
+}
+
+.estilo {
+    background-image: url(../img/fondoheader.jpg);
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-style: oblique;
+    padding: 25px 25px 25px 25px;
+    /* PADDING--Sirve para definir la sangria de un texto */
+}
+
+#encabezado {
+    color: #000;
+    border-radius: 10px;
+    width: 80%;
+    margin: 10px 10%;
+    background-image: url(../img/fondoheader.jpg);
+    padding: 10px 10px 10px 10px;
+}
+
+.enctabla {
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(241, 4, 95);
+    background-color: rgb(248, 248, 158);
+}
+
+.databla {
+    font-style: italic;
+    font-size: 20px;
+    background-color: rgb(248, 0, 83);
+}
+
+#sec1 {
+    float: left;
+    width: 30%;
+    height: 1000px;
+    margin: 0 0 0 10%;
+    background-color: aquamarine;
+    padding: 10px 10px 10px 10px;
+    font-style: oblique;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+#sec2 {
+    float: right;
+    width: 45%;
+    height: 1200px;
+    margin: 0 9% 0 0;
+    background-color: rgb(231, 231, 231);
+    padding: 10px 10px 10px 10px;
+}
+
+#carril {
+    text-align: center;
+    background-color: gray;
+    border-radius: 50px;
+    width: 80%;
+    margin: 10px 10%;
+    padding: 10px 10px 10px 10px;
+}
